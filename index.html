@@ -12,9 +12,9 @@
   </head> <!-- Head -->
   <body data-spy="scroll" data-target="Nav" data-offset="0">
   	<!-- body code goes here -->
-    <div id="Nav">
+    <div id="Nav" class="d-none d-md-block">
       <nav class="nav flex-column">
-        <a href="#FirstHero" class="nav-link active"><i class="fas fa-circle"></i></a>
+        <a id="heroButton" href="#FirstHero" class="nav-link active"><i class="fas fa-circle"></i></a>
         <a href="#Intro" class="nav-link"><i class="fas fa-circle"></i></a>
         <a href="#carouselActor" class="nav-link"><i class="fas fa-circle"></i></a>
         <a href="#" class="nav-link disabled"><i class="fas fa-circle"></i></a>
@@ -37,11 +37,11 @@
     </div> <!-- Hero Section -->
     <div id="Intro" class="container-fluid d-flex flex-column justify-content-center">
       <div class="row">
-        <div id="carouselExampleIndicators" class="carousel slide w-50 mx-auto" data-wrap="false">
+        <div id="carouselExampleIndicators" class="carousel slide mx-auto" data-wrap="false">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="card card-body textCard">
-                <div class="col-lg-8 offset-2">
+                <div class="col col-md-8 offset-md-2">
                   <h2 class="card-title">Capital Project Summary</h2>
                   <p class="card-text">This is an intro paragraph describing the visions and aspirations of the project</p>
                 </div>
@@ -111,5 +111,7 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/popper.min.js"></script> 
 	<script src="js/bootstrap-4.4.1.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/jquery.inview.js"></script>  
   </body>
 </html>
