@@ -74,7 +74,17 @@ html {
   background-size: cover;
 }
 
-#carouselExampleIndicators .fa-angle-right, .fa-angle-left{
+#carouselIntro{
+  width: 100vw;
+}
+
+@media (min-width: 768px){
+  #carouselIntro{
+    width: 50vw;
+  }
+}
+
+#carouselIntro .fa-angle-right, .fa-angle-left{
   color:#000000;
 }
 
