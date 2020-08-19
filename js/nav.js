@@ -1,8 +1,13 @@
 // JavaScript Document
-$(document).ready(function(){
-	$('ul li a').on('click', function(){
-		$(this).closest('ul').find('a').removeClass('is-active');
-		$(this).addClass('is-active');
-		return false;
-	});
-});
+
+$('#FirstHero').inView({
+    in: function() {
+        $('nav').toggleClass('d-none');
+    },
+    out: function() {
+        $('nav').toggleClass('d-none');
+    },
+    threshold: 200
+})
+
+
