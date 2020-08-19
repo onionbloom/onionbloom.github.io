@@ -94,6 +94,10 @@ html {
   background-color: transparent;
 }
 
+#carouselActor .carousel-item{
+  height: 100vh !important; 
+}
+
 .buttonsSection{
   max-width: 878px;
   height: 490px;
