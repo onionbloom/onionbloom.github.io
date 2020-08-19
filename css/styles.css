@@ -95,7 +95,7 @@ html {
 }
 
 #carouselActor .carousel-item{
-  height: 100vh !important; 
+  height: 100vh; 
 }
 
 .buttonsSection{
