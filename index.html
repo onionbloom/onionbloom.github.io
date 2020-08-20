@@ -37,7 +37,7 @@
     </div> <!-- Hero Section -->
     <div id="Intro" class="container-fluid d-flex flex-column justify-content-center">
       <div class="row">
-        <div id="carouselIntro" class="carousel slide mx-auto" data-ride="carousel" data-wrap="false">
+        <div id="carouselIntro" class="carousel slide mx-auto" data-wrap="false">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="card card-body textCard">
@@ -75,7 +75,7 @@
         </div>
       </div>
     </div> <!-- Intro -->
-    <div id="carouselActor" class="carousel slide" data-ride="carousel" data-wrap="false">
+    <div id="carouselActor" class="carousel slide" data-wrap="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-block w-100" src="https://via.placeholder.com/1920x1080.png?text=Actor+Slide+1" alt="First slide">
@@ -100,12 +100,12 @@
         <span class="sr-only">Next</span>
       </a>
     </div><!-- Actors -->
-    <div id="actorModal" class="modal" tabindex="-1" aria-labelledby="actorModalLabel" aria-hidden="true">
-      <div class="modal-dialog-scrollable" role="document">
+    <div id="actorModal" class="modal fade" tabindex="-1" aria-labelledby="actorModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="actorModalLabel">Actor Story</h5>
-            <button type="button" class="close hide" data-dismiss="modal" aria-label="Close">
+            <button class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
@@ -127,7 +127,7 @@
                 <p>Integer rutrum dignissim sollicitudin. Nullam bibendum tincidunt mi sit amet finibus. Integer neque eros, venenatis a nulla id, posuere lobortis lorem. Praesent tempus elit eget aliquam luctus. Fusce dictum commodo molestie. Phasellus suscipit euismod velit at semper. Nulla at tortor volutpat, cursus sem sed, dictum ipsum. Ut vel arcu sed dolor tincidunt porta.</p>
 
                 <p>Pellentesque in ornare dolor, vitae consequat elit. Proin vel risus bibendum sapien varius vestibulum. Donec non ullamcorper dolor. Fusce pellentesque ex ligula, non ultrices sapien euismod eu. Nullam porta blandit massa, quis malesuada elit bibendum ac. Pellentesque rhoncus hendrerit suscipit. Donec auctor feugiat augue sed mollis. Nulla consequat blandit maximus. Ut hendrerit dapibus dolor vel lobortis.</p>
-              </div>
+              </div> <!-- Actor description paragrah -->
               <div class="col-6">
                 <div class="card bg-dark">
                   <img class="card-img img-fluid" src="https://via.placeholder.com/1080" alt="modal Image 1">
@@ -157,6 +157,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
           integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <script src="js/inView.jquery.js"></script>  
-  <script src="js/nav.js"></script>
+    <script src="js/nav.js"></script>
   </body>
 </html>
