@@ -94,28 +94,13 @@ html {
   background-color: transparent;
 }
 
-#carouselActor .carousel-item{
-  height: 100vh !important; 
+@media (min-width: 576px){
+  #carouselActor .carousel-item{
+    height: 100vh; 
+  }
 }
 
-.buttonsSection{
-  max-width: 878px;
-  height: 490px;
-  margin: 0px auto;
-  position: relative;
-}
-.buttonsSection a{ 
-  display:inline-block; position:absolute;
-}
 
-#button1 {
-  left: 0px; bottom: 41px; width: 106px; height: 181px; 
-  background: url("../images/home_menu_item_1.png") no-repeat;
-  background-position: left;
-}
-#button1:hover{
-  background-position: right;
-}
 
 
 
