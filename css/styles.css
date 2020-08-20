@@ -100,7 +100,14 @@ html {
   }
 }
 
-
+#carouselActor .btn-link {
+  font-weight: 400;
+  color:#FFFFFF;
+  text-decoration: none;
+}
+#carouselActor .btn-link:hover {
+  color: #FFFFFF;
+}
 
 
 
