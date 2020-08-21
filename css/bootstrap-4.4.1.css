@@ -5917,6 +5917,7 @@ a.close.disabled {
   height: 100%;
   overflow: hidden;
   outline: 0;
+  padding-right: 0 !important; /* Making this important so the modal is able to be full width */
 }
 
 .modal-dialog {
@@ -6093,11 +6094,11 @@ a.close.disabled {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: 100%;
     margin: 0;
   }
   .modal-dialog-scrollable {
-    max-height: none;
+    max-height: 100%;
   }
   .modal-dialog-scrollable .modal-content {
     max-height: none;
@@ -6116,7 +6117,7 @@ a.close.disabled {
 @media (min-width: 992px) {
   .modal-lg,
   .modal-xl {
-    max-width: 800px;
+    max-width: 100%;
   }
 }
 
