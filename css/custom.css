@@ -94,6 +94,24 @@ html {
   background-color: transparent;
 }
 
+#ActorsIntro .card{
+  background-color: azure;
+  max-width: 260px;
+  height : 395px;
+  padding: 55px 24px;
+}
+
+#ActorsIntro div div div a{
+  padding: 0px;
+}
+
+@media (min-width: 1200px){
+  .container{
+    margin-bottom: 70px;
+    margin-top: 70px;
+  }
+}
+
 @media (min-width: 576px){
   #carouselActor .carousel-item{
     height: 100vh; 
