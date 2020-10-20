@@ -3,6 +3,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.mt-8, .my-8 {
+  margin-top: 6rem !important;
+}
+
 #Nav {
   position: fixed;
   right: 20px;
@@ -29,7 +33,7 @@ html {
 
 #FirstHero {
   background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
-  height: 95vh;
+  min-height: 100vh;
 
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -46,6 +50,10 @@ html {
 
 #FirstHero .container {
   height: 100%;
+}
+
+#FirstHero .card.card-window {
+  width: 100%;
 }
 
 #FirstHero .btn-link {
