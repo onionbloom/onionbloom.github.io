@@ -58,7 +58,7 @@ html {
 }
 
 #FirstHero .card.card-window:hover .card-img-overlay{
-  display: contents;
+  display: inline-flex;
 }
 
 #FirstHero .card.card-window .card-img-overlay{
