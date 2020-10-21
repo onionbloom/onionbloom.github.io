@@ -32,12 +32,12 @@ html {
 }
 
 #FirstHero {
-  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  background-image: url("/images/background.jpg");
   min-height: 100vh;
-
+  background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 90%;
 }
 
 #FirstHero .display-4 {
@@ -46,6 +46,7 @@ html {
 
 #FirstHero .lead {
   font-weight: 400;
+  line-height: ;
 }
 
 #FirstHero .container {
@@ -56,14 +57,21 @@ html {
   width: 100%;
 }
 
-#FirstHero .btn-link {
-  font-weight: 400;
-  color: #9e9e9e;
-  text-decoration: none;
+#FirstHero .card.card-window:hover .card-img-overlay{
+  display: contents;
 }
-#FirstHero .btn-link:hover {
-  color: #000000;
-  text-decoration: underline;
+
+#FirstHero .card.card-window .card-img-overlay{
+  display: none;
+  transition: all 0.3 ease;
+}
+
+#FirstHero .fas.fa-angle-right {
+  transition: all 0.3s ease;
+}
+
+#FirstHero .fas.fa-angle-right:hover {
+  transform: scale(1.2, 1.2) translate(50%);
 }
 
 #LearnMore {
