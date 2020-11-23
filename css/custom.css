@@ -96,6 +96,10 @@ html {
   background-size: cover;
 }
 
+#aboutDtZ .card .card-body {
+  min-height: 75vh;
+}
+
 #carouselIntro {
   width: 100vw;
 }
@@ -115,17 +119,6 @@ html {
   height: 400px;
   border: none;
   background-color: transparent;
-}
-
-#ActorsIntro .card {
-  background-color: azure;
-  max-width: 260px;
-  height: 395px;
-  padding: 55px 24px;
-}
-
-#ActorsIntro div div div a {
-  padding: 0px;
 }
 
 @media (min-width: 1200px) {
