@@ -32,7 +32,7 @@ html {
 }
 
 #FirstHero {
-  background-image: url("/images/background.jpg");
+  background-image: url("/images/background_red.png");
   min-height: 100vh;
   background-position: center;
   background-attachment: fixed;
@@ -100,6 +100,10 @@ html {
   min-height: 75vh;
 }
 
+.font-weight-500 {
+  font-weight: 500 !important;
+}
+
 #carouselIntro {
   width: 100vw;
 }
@@ -132,6 +136,11 @@ html {
   #carouselActor .carousel-item {
     height: 100vh;
   }
+}
+
+#carouselActor .carousel-inner .carousel-item .card{
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
 #carouselActor .btn-link {
