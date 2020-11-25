@@ -92,7 +92,7 @@ html {
   background-position: 0% 100%;
   background-attachment: scroll;
   background-repeat: no-repeat;
-
+  background-size: cover;
 }
 
 #aboutDtZ .card .card-body {
