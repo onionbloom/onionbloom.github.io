@@ -87,13 +87,12 @@ html {
 }
 
 #Intro {
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-
+  background-image: url("/images/bt.png");
   height: 100vh;
-
-  background-attachment: fixed;
+  background-position: 0% 100%;
+  background-attachment: scroll;
   background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 #aboutDtZ .card .card-body {
