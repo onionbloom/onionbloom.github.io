@@ -34,10 +34,10 @@ html {
 #FirstHero {
   background-image: url("/images/background_red.png");
   min-height: 100vh;
-  background-position: center;
-  background-attachment: fixed;
+  background-position: top;
+  background-attachment: scroll;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 95%;
 }
 
 #FirstHero .display-4 {
@@ -84,6 +84,14 @@ html {
 
 #LearnMore {
   border: none;
+}
+
+#ChildStairs {
+  min-height: 354px;
+  background-image: url("/images/child1.png"), url("/images/stairs.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 15%, 80%;
+  background-position: 60% -20%, 1.5rem 0;
 }
 
 #Intro {
