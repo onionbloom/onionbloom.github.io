@@ -94,9 +94,8 @@ html {
 }
 
 #Intro {
-  background-image: url("/images/bt.png");
-  height: 100vh;
-  background-position: 0% 100%;
+  background-image: url("/images/bg-Intro.png");
+  min-height: 73vw;
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
