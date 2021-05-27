@@ -193,7 +193,7 @@ p {
     color: var(--blue);
 }
 
-#button-tdh > a {
+#button-tdh a {
     display: inline-block;
     width: 200px;
     height: 50px;
@@ -203,7 +203,7 @@ p {
     background-size: contain;
 }
 
-#button-plan > a {
+#button-plan a {
     display: inline-block;
     width: 200px;
     height: 50px;
@@ -213,7 +213,7 @@ p {
     background-size: contain;
 }
 
-#button-ecpat > a {
+#button-ecpat a {
     display: inline-block;
     width: 40px;
     height: 50px;
