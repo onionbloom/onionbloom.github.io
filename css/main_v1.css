@@ -180,6 +180,7 @@ p {
 .btn-link {
     text-decoration: none;
     color: var(--blue);
+    transition: all 0.3s ease;
 }
 
 .btn-link:hover {
