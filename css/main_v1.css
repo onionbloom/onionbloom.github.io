@@ -37,6 +37,7 @@ html {
     font-family: sans-serif;
     line-height: 1.15;
     scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -87,6 +88,7 @@ p {
     height: 100vh;
     padding: 1.5rem 0;
     border-radius: 0;
+    scroll-snap-align: start;
 }
 
 .container {
@@ -111,6 +113,29 @@ p {
 .section-bg .img {
     background-size: cover;
     background-position: top;
+}
+
+.section-fg {
+    position: absolute;
+}
+
+.woman1 {
+    width: 20%;
+    bottom: 0;
+    right: 10%;
+}
+
+.woman2 {
+    width: 18%;
+    bottom: 0;
+    left: 5%;
+    transform: scaleX(-1);
+}
+
+.man {
+    width: 17%;
+    top: 0;
+    right: 3%;
 }
 
 #Hero .section-bg .img {
