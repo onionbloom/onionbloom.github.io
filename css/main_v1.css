@@ -150,6 +150,12 @@ p {
     top: 0;
 }
 
+.map {
+    width: 50%;
+    right: 0;
+    top: 0;
+}
+
 #Intro {
     background: url("../images/qqArtboard-2.png") no-repeat;
     background-position: center;
@@ -166,6 +172,10 @@ p {
     -ms-flex-positive: 1;
     flex-grow: 1;
     max-width: 100%;
+}
+
+.col-span-all {
+    column-span: all;
 }
 
 .row-cols-2 > * {
@@ -278,6 +288,19 @@ p {
     background-image: url("../images/logos/ICCO.png");
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.btn-loc {
+    position: absolute;
+    top: 39%;
+    right: 27%;
+    color: var(--pink);
+    transform: all 0.3s ease;
+}
+
+.btn-loc:hover {
+    transform: scale(1.05);
+    color: var(--blue);
 }
 
 @media (min-width: 576px){
