@@ -24,3 +24,24 @@ showEvents.forEach(event=> {
 hideEvents.forEach(event => {
     button.addEventListener(event, hide);
 });
+
+var modal = document.getElementById("modal-learn");
+var btn = document.getElementById("button-learn");
+var span = document.getElementsByClassName("modal-close")[0];
+
+// Open modal on button click
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// Close modal on X button click
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// Close modal on click outside the modal
+window.onclick = function(event) {
+    if(event.target == modal) {
+        modal.style.display = "none";
+    }
+}
