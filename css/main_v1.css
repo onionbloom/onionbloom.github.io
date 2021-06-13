@@ -101,6 +101,12 @@ p {
     z-index: -1;
 }
 
+.centerpiece {
+    width: 35%;
+    top: 20%;
+    right: 32%;
+}
+
 .woman1 {
     width: 20%;
     bottom: 0;
