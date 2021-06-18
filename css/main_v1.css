@@ -108,6 +108,7 @@ p {
     background-clip: border-box;
     position: relative;
     min-width: 0;
+    min-height: 27rem;
     display: flex;
     display: -ms-flexbox;
     flex-direction: column;
