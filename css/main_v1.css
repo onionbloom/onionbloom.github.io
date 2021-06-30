@@ -180,10 +180,16 @@ p {
   right: 3%;
 }
 
-.clouds {
-  width: 80%;
-  top: -1%;
-  left: -8%;
+.cloud {
+  width: 51%;
+  top: 0%;
+  right: -9%;
+}
+
+.cloud1 {
+  width: 48%;
+  top: 3%;
+  left: -3%;
 }
 
 .children {
@@ -193,21 +199,28 @@ p {
 }
 
 .dand {
-  width: 6%;
-  right: 22%;
-  top: 26%;
+  width: 4%;
+  right: 45%;
+  top: 48%;
+  transform: rotateZ(-44deg);
 }
 
 .dand1 {
   width: 15%;
-  right: 7%;
-  top: 0;
+  right: 29%;
+  top: 58px;
+  transform: rotateZ(27deg);
 }
 
 .map {
-  width: 50%;
+  width: 62%;
+  height: 50%;
   right: 0;
   top: 0;
+  background-image: url(/images/pg4-map.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
 }
 
 .flowerPots {
@@ -300,6 +313,12 @@ p {
   color: var(--blue);
 }
 
+#button-learn.btn.btn-link {
+  font-size: inherit;
+  border: 0;
+  padding: 0;
+}
+
 #button-tdh a {
   display: inline-block;
   width: 200px;
@@ -359,12 +378,16 @@ p {
   background-size: contain;
 }
 
-.btn-loc {
-  position: absolute;
-  top: 39%;
-  right: 27%;
-  color: var(--pink);
-  transform: all 0.3s ease;
+#loc1.btn-loc {
+  position: relative;
+  top: 66%;
+  left: 20%;
+}
+
+#loc2.btn-loc {
+  position: relative;
+  top: 70%;
+  left: 28%;
 }
 
 .btn-loc:hover {
