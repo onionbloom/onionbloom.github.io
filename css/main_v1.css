@@ -156,9 +156,9 @@ p {
 }
 
 .centerpiece {
-  width: 35%;
-  top: 15%;
-  right: 33.33%;
+  width: 40%;
+  top: 20%;
+  right: 30%;
 }
 
 .woman1 {
@@ -171,7 +171,6 @@ p {
   width: 18%;
   bottom: 0;
   left: 5%;
-  transform: scaleX(-1);
 }
 
 .man {
@@ -183,7 +182,7 @@ p {
 .cloud {
   width: 51%;
   top: 0%;
-  right: -9%;
+  right: 0%;
 }
 
 .cloud1 {
@@ -230,7 +229,7 @@ p {
 }
 
 #Intro {
-  background: url("../images/qqArtboard-2.png") no-repeat;
+  background: url("/images/pg2.png") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -388,6 +387,12 @@ p {
   position: relative;
   top: 70%;
   left: 28%;
+}
+
+#loc3.btn-loc {
+  position: relative;
+  top: 73%;
+  left: 30%;
 }
 
 .btn-loc:hover {
